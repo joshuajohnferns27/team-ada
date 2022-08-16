@@ -5,10 +5,10 @@
 
 ### Members
 
-| Name      | Github UserName |
-|-----------|-----------------|
-| member 1 | icsota-cci      |
-|           |                 |
+| Name      | Github UserName |Tech Known|
+|-----------|-----------------|----------|
+| member 1 | icsota-cci      |git,react|
+|           |                 |        |
 
 
 ## Team B
