@@ -4,11 +4,11 @@
 ## Team A
 
 ### Members
-| Name | Responsibility |
-|Name 1 | x |
-|Name 2 | x |
 
-
+| Name      | Github UserName |
+|-----------|-----------------|
+| memeber 1 | icsota-cci      |
+|           |                 |
 
 
 ## Team B
