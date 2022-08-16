@@ -7,7 +7,7 @@
 
 | Name      | Github UserName |
 |-----------|-----------------|
-| memeber 1 | icsota-cci      |
+| member 1 | icsota-cci      |
 |           |                 |
 
 
