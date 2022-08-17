@@ -1,7 +1,6 @@
-# One 2 One App
+# Internship Aug 22
 
 
-## Team A
 
 ### Members
 
@@ -10,6 +9,4 @@
 | member 1 | icsota-cci      |git,react|
 |           |                 |        |
 
-
-## Team B
 
