@@ -4,9 +4,9 @@
 
 ### Members
 
-| Name      | Github UserName |Tech Known|
-|-----------|-----------------|----------|
-| member 1 | icsota-cci      |git,react|
-|           |                 |        |
+| Name      | Github UserName |Tech Known| College Name |
+|-----------|-----------------|----------|----------|
+| member 1 | icsota-cci      |git,react| DBCC |
+|           |                 |        |       |
 
 
