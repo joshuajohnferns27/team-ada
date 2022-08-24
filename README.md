@@ -6,7 +6,7 @@
 
 | Name      | Github UserName |Tech Known| College Name |
 |-----------|-----------------|----------|----------|
-| member 1 | icsota-cci      |git,react| DBCC |
+| [Omkar](/teams/members/omkar.md) | icsota-cci      |git,react| DBCC |
 |           |                 |        |       |
 
 
