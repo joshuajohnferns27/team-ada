@@ -11,3 +11,4 @@
 |[Vaibhav Kamat](/teams/members/Vaibhav.md)| Vaibhav13kamat|HTML,CSS,Javascript,C++ |SRIEIT|
 
 
+|[Aliyaj Ahemad](https://github.com/AliyajAhemad/About-#readme)| aliyajahemad|HTML,CSS,Javascript,C,Basics od Java,basics of MySql|SRIEIT|
