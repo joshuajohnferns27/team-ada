@@ -10,5 +10,6 @@
 | [Mayur Naik](/teams/members/Mayur.md) | NaikMayur                |Html,CSS,Bootstrap,C        |SRIEIT       |
 |[Vaibhav Kamat](/teams/members/Vaibhav.md)| Vaibhav13kamat|HTML,CSS,Javascript,C++ |SRIEIT|
 |[Aliyaj Ahemad](https://github.com/AliyajAhemad/About-#readme)| aliyajahemad|HTML,CSS,Javascript,C,Basics od Java,basics of MySql|SRIEIT|
+|[Lachlan Da Silva](/teams/members/lachlan.md)| lachsilva3 | Html,CSS,MySQL,JavaScript(Basics) | SRIEIT |
 
 
