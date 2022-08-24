@@ -12,4 +12,5 @@
 |[Aliyaj Ahemad](https://github.com/AliyajAhemad/About-#readme)| aliyajahemad|HTML,CSS,Javascript,C,Basics od Java,basics of MySql|SRIEIT|
 |[Lachlan Da Silva](/teams/members/lachlan.md)| lachsilva3 | Html,CSS,MySQL,JavaScript(Basics) | SRIEIT |
 |[Athena Rodrigues](/teams/members/athena.md)| athena46 | Html,CSS,MySQL,JavaScript(Basics),C++,Python | DBCE |
+|[Siddhant Desai](/teams/members/Siddhant.md)
 
