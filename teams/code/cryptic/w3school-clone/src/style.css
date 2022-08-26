@@ -1,0 +1,850 @@
+/* Removing default extra margins and paddign around html */
+/* And global font */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* Navbar */
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+button {
+  border: none;
+  cursor: pointer;
+}
+nav {
+  overflow: hidden;
+  font-family: Arial;
+  color: black;
+  height: 6.5vh;
+  padding: 8px;
+  align-items: center;
+  padding: 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+}
+
+nav a {
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  height: 100px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+nav span {
+  text-transform: uppercase;
+  background-color: #fff;
+  color: black;
+  font-weight: bold;
+  border-radius: 50px;
+  border: 1px solid;
+  font-size: 8px;
+  font-weight: bold;
+  padding: 4px 10px;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+nav ul .nav-buttons{
+  gap: 12px;
+}
+
+nav ul a {
+  color: black;
+  transition: all 0.3s ease;
+}
+
+
+.nav-1 a:not(.w3c-logo):hover, .dropdown:hover .dropbtn {
+  background-color: #04AA6D;
+  color: white;
+}
+
+nav .nav-2{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-2 .nav-icons a{
+  font-size: 24px;
+}
+
+
+nav ul.nav-buttons a button {
+  width: 130px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: white;
+  padding: 12px 14px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+nav ul.nav-buttons li:nth-child(2) a button {
+  background-color: #ffc0c7;
+}
+
+nav ul.nav-buttons li:first-child a button:hover,
+nav ul.nav-buttons li:nth-child(3) a button:hover {
+  background-color: #04aa6d;
+  color: #fff;
+}
+
+nav ul.nav-buttons li:nth-child(4) a button {
+  background-color: #04aa6d;
+  color: #fff;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  background-color: #04AA6D;
+  font-weight: bold;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0;
+  height: 100px;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+/*Header*/
+.container {
+  width: 90%;
+  margin: auto;
+}
+  .ltc-container {
+    background-color: #282A35;
+    height: 55vh;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .ltc-container .ltc-content{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    
+
+  }
+
+  /* LearnToCode - Search Bar */
+.ltc-content form.searchBar input{
+  
+    width: 23vw;
+    height: 5vh;
+    border-radius: 50px 0px 0px 50px;
+    border-style: none;
+}
+
+.ltc-content form.searchBar button {
+    
+    height: 5vh;
+    width: 6vw;
+    border-radius: 0px 50px 50px 0px;
+    border-style: none;
+    background-color: #04AA6D;;
+}
+  
+
+/* ---------------------------------------------------------------- */
+/* HTML-Section CSS */
+/* ---------------------------------------------------------------- */
+
+.html{
+  background-color: #D9EEE1;
+}
+
+.html .html-0{
+  display: flex; 
+  padding-top: 70px;
+  padding-bottom: 70px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.html-0 .html-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+}
+
+.html-1 h1{
+  font-size: 6rem;
+  font-weight: 700;
+}
+
+.html-1 p{
+  font-size: 19px;
+}
+
+.button1 button, .button2 button, .button3 button, .button4 button, .html-2-1 button{
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #04AA6D;
+  border-radius: 25px;
+  width: 200px;
+  height: 40px;
+  border: none;
+}
+
+.html-1 .button2 button{
+  background-color: #FFF4A3;
+  color: #000000;
+}
+
+.html-1 .button3 button{
+  background-color: #282A35;
+}
+
+.html-1 .button4 button{
+  background-color:#ffc0c7 ;
+  color: #000000;
+}
+
+.html-0 .html-2{
+  background-color: #E7E9EB;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  width: 45%;
+}
+
+.html-2-1{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 15px;
+}
+
+.html-2-1 button{
+  background-color: #04AA6D;
+}
+
+.html-2-1 button:hover, .button1 button:hover{
+  background-color: #059862;
+}
+
+.html-2-2{
+  background-color: white;
+  padding: 8px 12px;
+  border-left: 4px solid #04AA6D;
+}
+
+.html-2-1 h1{
+  font-size: 24px;
+}
+
+.html-2-2 pre span{
+  font-size: 14px;
+  font-family: 'Consolas','Menlo',"courier new",monospace;
+  line-height: 1.5;
+} 
+
+.html-2-2 .span1{
+  color: blue;
+}
+
+.html-2-2 .span2{
+  color: brown;
+}
+
+.html-2-2 .span3{
+  color: black;
+}
+.html-2-2 .span-4{
+  color: red;
+}
+
+/* ---------------------------------------------------------------- */
+/* CSS-Section CSS */
+/* ---------------------------------------------------------------- */
+.css{
+  background-color: #FFF4A3;
+}
+.css .css-0{
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  align-items: center;
+  justify-content: space-around;
+}
+.css-0 .css-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+}
+.css-1 h1{
+  font-size: 6rem;
+  font-weight: 700;
+}
+.css-1 p{
+  font-size: 19px;
+}
+.button1 button, .button2 button, .css-2-1 button{
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #04AA6D;
+  border-radius: 25px;
+  width: 200px;
+  height: 40px;
+  border: none;
+}
+ .css-1 .button2 button{
+ background-color: #282A35;
+}
+
+.css-1 .button4 button{
+  background-color:#ffc0c7 ;
+  font-weight: 600;
+  color: #000000;
+}
+.css-0 .css-2{
+  background-color: #E7E9EB;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  width: 45%;
+}
+.css-2-1{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px 15px;
+}
+.css-2-1 button{
+  background-color: #04AA6D;
+}
+ .css-1 .button2 button:hover{
+  background-color: #000000;
+}
+.css-2-1 button:hover, .button1 button:hover{
+  background-color: #059862;
+}
+.css-2-2{
+  background-color: white;
+  padding: 8px 12px;
+  border-left: 4px solid #04AA6D;
+}
+.css-2-1 h1{
+  font-size: 24px;
+}
+.css-2-2 pre span{
+  font-size: 16px;
+  font-family: 'Consolas','Menlo',"courier new",monospace;
+  line-height: 1.5;
+} 
+.css-2-2 .span1, .css-2-2 .span4{
+  color: brown;
+}
+.css-2-2 .span2,.css-2-2 .span5,.css-2-2 .span7{
+  color: red;
+}
+.css-2-2 .span3, .css-2-2 .span6,.css-2-2 .span8{
+  color: blue;
+}
+
+/* ---------------------------------------------------------------- */
+/* Javascript-Section CSS */
+/* ---------------------------------------------------------------- */
+
+.js{
+  background-color: #282A35;
+}
+.js .js-0{
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  align-items: center;
+  justify-content: space-around;
+}
+.js-0 .js-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+}
+.js-1 h1{
+  font-size: 70px;
+  font-weight: 700;
+  color: white;
+}
+.js-1 p{
+  font-size: 19px;
+  color: white;
+}
+.button1 button, .button2 button, .js-2-1 button{
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #04AA6D;
+  border-radius: 25px;
+  width: 200px;
+  height: 40px;
+  border: none;
+}
+.js-1 .button2 button{
+ background-color: white;
+ color: #000000;
+}
+.js-1 .button4 button{
+  background-color:#ffc0c7 ;
+  font-weight: 600;
+  color: #000000;
+}
+.js-0 .js-2{
+  background-color: #E7E9EB;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  width: 45%;
+}
+.js-2-1{
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ padding: 30px 15px;
+}
+.js-2-1 button{
+ background-color: #04AA6D;
+}
+.button2 button:hover{
+  background-color: #f1f1f1;
+}
+.js-2-1 button:hover, .button1 button:hover{
+  background-color: #059862;
+}
+.js-2-2{
+ display: flex;
+ flex-wrap: wrap;
+ background-color: white;
+ padding: 8px 12px;
+ border-left: 4px solid #04AA6D;
+}
+.js-2-1 h1{
+  font-size: 24px;
+}
+.js-2-2 pre span{
+  font-size: 16px;
+  font-family: 'Consolas','Menlo',"courier new",monospace;
+  line-height: 1.5;
+} 
+.js-2-2 .span2{
+  color: brown;
+}
+.js-2-2 .span3{
+  color: red;
+}
+.js-2-2 .span1{
+  color: blue;
+}
+
+/* ---------------------------------------------------------------- */
+/* Python-Section CSS */
+/* ---------------------------------------------------------------- */
+.python .css-0{
+  display: flex;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  align-items: center;
+  justify-content: space-around;
+}
+.python{
+  background-color: #F3ECEA;
+}
+.css-2-2 .python1{
+  color: blue;
+  font-family: 'Consolas','Menlo',"courier new",monospace;
+}
+.css-2-2 .python2{
+  color: red;
+}
+.css-2-2 .python3{
+  color: brown;
+}
+pre span{
+  font-family: 'Consolas','Menlo',"courier new",monospace;
+}
+
+/* ---------------------------------------------------------------- */
+/* SQL-Section CSS */
+/* ---------------------------------------------------------------- */
+.sql .css-0{
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .sql{
+    background-color: #96D4D4;
+  }
+  .sql1{
+    color: blue;
+  }
+  .sql2{
+    color: brown;
+  }
+
+  /*COURSES*/
+  .exercises{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #282A35;
+  } 
+  .exercises h2{
+    font-size: 45px;
+  }
+  .course-button{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #282a35;
+    border-radius: 25px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+  }
+  .exercises-1{
+    font-size: 18px;
+    padding: 20px;
+    font-weight: 400;
+    color:#3a3a3a ;
+  }
+  .quizzes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .quizzes-1{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    width: 83%;
+    padding-top: 30px;
+  }
+  .quizzes-1 .exercises,
+  .quizzes-1 .quizzes {
+    font-size: 35px;
+    width: 87%;
+    opacity: 0.96;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .quizzes-1 .exercises{
+    color:black;
+  }
+  .quizzes-1 .quizzes{
+    background-color:#FFF4A3 ;
+    color: black;
+  }
+  .quizzes-1 .course-button:hover{
+    background-color: #000000;
+  }
+
+  /*Code Editor Section*/
+  .code-editor-0 {
+    padding-top: 85px;
+    padding-bottom: 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    background-color: #282A35;
+  }
+  
+  .code-editor-0 .code-editor-2{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .code-editor-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .code-editor-1 h1{
+    color: #ffffff;
+    font-size: 65px;
+    font-weight: 700;
+  }
+  .code-editor-1 h4{
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+  }
+  .code-editor-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 62%;
+  }
+  .dot{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    background-color: #F1F1F1;
+    padding: 10px;
+    color: #666666;
+  }
+  .www{
+    background-color: white;
+    width: 60%;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  .button{
+    background-color: #f1f1f1;
+  }
+  .button button{
+    padding: 8px 16px;
+    font-size: 17px;
+  }
+  .button button:hover{
+    background-color: #E7E9EB;
+  }
+   .span span button{
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    
+  }
+  .span .span-1 button{
+    background-color: #ED594A;
+  }
+  .span .span-2 button {
+    background-color: #FDD800;
+  }
+  .span .span-3 button{
+    background-color: #5AC05A;
+  }
+  .code-editor-2 .button-1 button,.code-editor-2 .button-2 button {
+    background-color: #04AA6D;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 17px;
+    color: white;
+  }
+  .code-editor-2 .button-2 button{
+    background-color: #FFF4A3!important;
+    color: black!important;
+  }
+  .code-editor-2 .button-1 button:hover{
+    background-color: #059862;
+  }
+  .code-editor-2 .button-2 button:hover{
+    background-color: #FFF080 !important;
+  }
+  .code-editor-2-1 img{
+    width: 100%;
+  } 
+  /*W3Schools Spaces*/
+  .w3schools-spaces{
+    background: #282A35 url(https://www.w3schools.com/spaces/files/priscilla-du-preez-XkKCui44iM0-unsplash.921aa0c0.jpg) no-repeat fixed center;
+}
+  
+.w3schools-spaces-0{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    gap: 40px;
+    background-color: #282A35;
+    opacity: 0.96
+}
+.w3schools-spaces-0 h1{
+  font-size: 65px;
+  font-weight: 700;
+  color: white;
+}
+.w3schools-spaces-0 h3{
+  color: white;
+  font-size: 22px;
+}
+.w3schools-spaces-0 button{
+  font-size: 22px;
+  padding: 15px 60px;
+  background-color: #04AA6D;
+  color: white;
+  border-radius: 28px;
+  
+}
+.w3schools-spaces-0 button:hover{
+  background-color: #059862;
+}
+/*color Picker*/
+.color-picker{
+  background-color: #F3ECEA;
+}
+.color-picker-0{
+  padding-top: 85px;
+  padding-bottom: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.color-picker-0 h1{
+  font-size: 65px;
+  font-weight: 700;
+}
+.color-picker-0 p{
+  font-size: 18px;  
+}
+.color-picker-0 img:hover{
+  opacity: 0.50;
+}
+/* Code Game Section*/
+
+.code-game{
+  padding-top: 85px;
+  padding-bottom: 85px;
+  background-color: #96D4D4;
+}
+.code-game-0{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.code-game-0 h1{
+  font-family: 'Freckle Face', cursive;
+  font-size: 48px;
+}
+.code-game-0 h2{
+  font-family: 'Freckle Face', cursive;
+}
+.code-game-0  button{
+  background-color: #282A35;
+  padding: 11px 60px;
+  border-radius: 28px;
+  color: white;
+  font-size: 18px;
+}
+.code-game-0 img:hover{
+  opacity: 0.5;
+}
+.code-game-0 button:hover{
+  background-color: #000000;
+}
+/*Exercises and quizzes section*/
+.exer{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background: #282A35;
+  } 
+  
+  .quiz{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .quiz-1{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    width: 83%;
+    padding-top: 30px;
+  }
+
+  .quiz-1 .exer,
+  .quiz-1 .quizzes {
+    font-size: 35px;
+    width: 87%;
+    opacity: 0.96;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+  }
+  .quiz-1 .exer{
+    background-color: #04aa6d;
+    color:black;
+  }
+  .quiz-1 .quizzes{
+    background-color:#FFF4A3 ;
+    color: black;
+  }
+  .quiz-1 .course-button:hover{
+    background-color: #000000;
+  }
+
+  /* HOw to section */
+
+
+.vl-howto{
+  
+  border-left: 50px solid #282A35;
+  height: 80px;
+  position: bottom;
+  bottom: 90px;
+  
+  margin-left: 25px;
+}
+
