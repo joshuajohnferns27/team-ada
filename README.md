@@ -6,7 +6,7 @@
 
 | Name      | Github UserName |Tech Known| College Name |
 |-----------|-----------------|----------|----------|
-| [Omkar](/teams/members/omkar.md) | icsota-cci      |git,react| DBCC |
+| [Omkar](/teams/members/omkar.md) | Blackstorm11      |git,HTML,CSS,python,MySQl| SRIEIT |
 | [Mayur Naik](/teams/members/Mayur.md) | NaikMayur                |Html,CSS,Bootstrap,C        |SRIEIT       |
 |[Vaibhav Kamat](/teams/members/Vaibhav.md)| Vaibhav13kamat|HTML,CSS,Javascript,C++ |SRIEIT|
 |[Aliyaj Ahemad](https://github.com/AliyajAhemad/About-#readme)| aliyajahemad|HTML,CSS,Javascript,C,Basics od Java,basics of MySql|SRIEIT|
