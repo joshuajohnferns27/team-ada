@@ -3,7 +3,7 @@
 
 
 
-# Hi I am **ALIYAJ AHEMAD **
+# Hi I am ALIYAJ AHEMAD
 >A strong-willed,hard-working ,and bold Explorer who can perform under pressure
 and is always looking for new engagements which can help me improve myself.
 
