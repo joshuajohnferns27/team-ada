@@ -1,7 +1,7 @@
 
-![PROGRAMMING WORLD](img.jpeg)
 
----
+
+
 
 # Hi I am **ALIYAJ AHEMAD **
 >A strong-willed,hard-working ,and bold Explorer who can perform under pressure
