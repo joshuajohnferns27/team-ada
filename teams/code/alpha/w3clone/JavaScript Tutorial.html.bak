@@ -1,0 +1,847 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width-device-width,initial-scale-1">
+    <link rel="icon" href="Logos/W3Schools2.png" type="image/icon type">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JavaScript Tutorial</title>
+  </head>
+  <body>
+  <!--main navbar start-->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light nav">
+  <div class="container-fluid">
+    <img class="navbar-brand logo" src="images/logo.png">
+  <button style="z-index:1;" class="navbar-toggler menu-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span><label>menu</label></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul style="background:black; z-index:100px;" class="navbar-nav me-auto mb-2 mb-lg-0 ul-list-one">
+
+    <li class="nav-item dropdown first">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Tutorials
+          </a>
+		  
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li style="width:200px;"><a class="dropdown-item" href="#">Action</a></li>
+            <li style="width:200px;"><a class="dropdown-item" href="#">Another action</a></li>
+            <li style="width:200px;"><a class="dropdown-item" href="#">Something else here</a></li>
+		    <li style="width:200px;"><a class="dropdown-item" href="#">Action</a></li>
+            <li style="width:200px;"><a class="dropdown-item" href="#">Another action</a></li>
+            <li style="width:200px;"><a class="dropdown-item" href="#">Something else here</a></li>
+			            <li style="width:200px;"><a class="dropdown-item" href="#">Action</a></li>
+            <li style="width:200px;"><a class="dropdown-item" href="#">Another action</a></li>
+            <li style="width:200px;"><a class="dropdown-item" href="#">Something else here</a></li>
+			
+		            <li style="width:200px;"><a class="dropdown-item" href="#">Action</a></li>
+            <li style="width:200px;"><a class="dropdown-item" href="#">Another action</a></li>
+            <li style="width:200px;"><a class="dropdown-item" href="#">Something else here</a></li>
+			            <li style="width:200px;"><a class="dropdown-item" href="#">Action</a></li>
+            <li style="width:200px;"><a class="dropdown-item" href="#">Another action</a></li>
+            <li style="width:200px;"><a class="dropdown-item" href="#">Something else here</a></li>
+			            <li style="width:200px;"><a class="dropdown-item" href="#">Action</a></li>
+            <li style="width:200px;"><a class="dropdown-item" href="#">Another action</a></li>
+            <li style="width:200px;"><a class="dropdown-item" href="#">Something else here</a></li>
+			           
+			
+          </ul>
+        </li>
+		    <li class="nav-item dropdown second">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            References
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+		    <li class="nav-item dropdown third">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Exercises
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+		   <li class="nav-item fourth">
+          <a class="nav-link" href="#">Videos</a>
+        </li>
+		
+		<li class="nav-item fifth extra">
+          <a class="nav-link" href="#">Get Certified</a>
+        </li>
+		
+		<li class="nav-item sixth extra">
+          <a class="nav-link" href="#">spaces</a>
+        </li>
+		
+		<li class="nav-item seventh extra">
+          <a class="nav-link" href="#">Shop</a>
+        </li>
+			<li class="nav-item seventh extra">
+          <a class="nav-link" href="#">Pro</a>
+        </li>
+
+		</ul>
+		
+	<ul class="navbar-nav ms-auto mb-2 mb-lg-0 ul-list-two">
+	    <li style="margin-right:8px;" class="nav-item">
+          <a class="nav-link" href="#"><img style="width:16px;" src="images/blackwhite.svg" alt="black/white"></a>
+        </li>
+        <li style="margin-right:8px;" class="nav-item">
+          <a class="nav-link" href="#"><img style="width:16px;" src="images/earth.svg" alt="explore"></a>
+        </li>
+      <li style="margin-right:12px;" class="nav-item">
+          <a class="nav-link" href="#"><img style="width:16px;" src="images/search.svg" alt="search here"></a>
+        </li>
+      <li style="width:100px; margin-right:20px; " class="nav-item">
+          <a class="nav-link" href="#">Pro</a>
+        </li>
+      <li class="nav-item">
+          <a class="nav-link certificate" href="#">Get Certified</a>
+        </li>
+      <li class="nav-item">
+          <a class="nav-link website-url" href="#">Website</a>
+        </li>
+		   <li class="nav-item">
+          <a class="nav-link login" href="#">Log in</a>
+        </li>
+    </ul>
+	
+	 
+    </div>
+  </div>
+</nav>
+	  <!--main navbar end-->
+    </nav>
+	
+	<!--second navbar start-->
+    <nav>
+      <div class="topnav-nav" id="navbar" style="background-color:#282A35;">
+        <ul class="nav nav-pills ml second-un-list">
+          <li style="margin-right:8px;" class="nav-item two">
+            <a class="nav-link two" href="https://www.w3schools.com/default.asp"><img src="Logos/house-24.png" alt="black/white"></a>
+          </li>
+          <li class="nav-item two item1">
+            <a class="nav-link two " href="https://www.w3schools.com/html/default.asp">HTML</a>
+          </li>
+          <li class="nav-item two item2">
+            <a class="nav-link two" href="https://www.w3schools.com/css/default.asp">CSS</a>
+          </li>
+          <li class="nav-item two item3">
+            <a class="nav-link two" href="https://www.w3schools.com/js/default.asp">JAVASCRIPT</a>
+          </li>
+          <li class="nav-item two item4">
+            <a class="nav-link two " href="https://www.w3schools.com/sql/default.asp">SQL</a>
+          </li>
+          <li class="nav-item two item5">
+            <a class="nav-link two " href="https://www.w3schools.com/python/default.asp">PYTHON</a>
+          </li>
+          <li class="nav-item two item6">
+            <a class="nav-link two " href="https://www.w3schools.com/php/default.asp">PHP</a>
+          </li>
+          <li class="nav-item two item7">
+            <a class="nav-link two"  href="https://www.w3schools.com/bootstrap/bootstrap_ver.asp">BOOTSTRAP</a>
+          </li>
+          <li class="nav-item two item8">
+            <a class="nav-link two " href="https://www.w3schools.com/howto/default.asp">HOW TO</a>
+          </li>
+          <li class="nav-item two item9">
+            <a class="nav-link two" href="https://www.w3schools.com/w3css/default.asp">W3.CSS</a>
+          </li>
+          <li class="nav-item two item10">
+            <a class="nav-link two" href="https://www.w3schools.com/java/default.asp">JAVA</a>
+          </li>
+          <li class="nav-item two item11">
+            <a class="nav-link two " href="https://www.w3schools.com/jquery/default.asp">JQUERY</a>
+          </li>
+          <li class="nav-item two item12">
+            <a class="nav-link two " href="https://www.w3schools.com/c/index.php">C</a>
+          </li>
+          <li style="margin-right:8px;" class="nav-item two">
+            <a class="nav-link two" href="#"><img style="width:16px;" src="Logos/blackwhite.png" alt="black/white"></a>
+          </li>
+          <li style="margin-right:8px;" class="nav-item two">
+            <a class="nav-link two" href="#"><img style="width:16px;" src="Logos/globe-24.png" alt="explore"></a>
+          </li>
+          <li  class="nav-item two">
+            <a class="nav-link two" href="#"><img style="width:16px;" src="Logos/search-12-24.png" alt="search here"></a>
+          </li>
+
+        </ul>
+      </div>
+	  <!--second navbar end-->
+    </nav>
+	<div class="row">
+		<!--offcanvas nav start-->
+<div class="offcanvas-nav">	
+<a  class="" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+<button class="offcanvas-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+<img style="height:20px; width:20px;" src="bar.svg">
+</button>
+</a>
+
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">HTML Tutorial</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div>
+    <hr>
+	<ul class="offcanvas-ul">
+		<li class="active" style="color:white;"><a href="#">HTML Home</a></li>
+		<li><a href="https://www.w3schools.com/html/html_intro.asp">HTML Introduction</a></li>
+		<li><a href="https://www.w3schools.com/html/html_editors.asp">HTML Editors</a></li>
+		<li><a href="https://www.w3schools.com/html/html_basic.asp">HTML Basics</a></li>
+		<li><a href="https://www.w3schools.com/html/html_elements.asp">HTML Elements</a></li>
+		<li><a href="https://www.w3schools.com/html/html_attributes.asp">HTML Attributes</a></li>
+		<li><a href="https://www.w3schools.com/html/html_headings.asp">HTML Headings</a></li>
+		<li><a href="https://www.w3schools.com/html/html_paragraphs.asp">HTML Paragraphs</a></li>
+		<li><a href="https://www.w3schools.com/html/html_styles.asp">HTML Styles</a></li>
+		<li><a href="https://www.w3schools.com/html/html_formatting.asp">HTML Formatting</a></li>
+		<li><a href="https://www.w3schools.com/html/html_quotation_elements.asp">HTML Quotations</a></li>
+		<li><a href="https://www.w3schools.com/html/html_comments.asp">HTML Comments</a></li>
+		<li><a href="https://www.w3schools.com/html/html_colors.asp">HTML Colors</a></li>
+		<li><a href="https://www.w3schools.com/html/html_css.asp">HTML CSS</a></li>
+		<li><a href="https://www.w3schools.com/html/html_links.asp">HTML Links</a></li>
+		<li><a href="https://www.w3schools.com/html/html_images.asp">HTML Images</a></li>
+		<li><a href="https://www.w3schools.com/html/html_favicon.asp">HTML Favicon</a></li>
+		<li><a href="https://www.w3schools.com/html/html_tables.asp">HTML Tables</a></li>
+		<li><a href="https://www.w3schools.com/html/html_lists.asp">HTML Lists</a></li>
+		<li><a href="https://www.w3schools.com/html/html_blocks.asp">HTML Block & Inline</a></li>
+		<li><a href="https://www.w3schools.com/html/html_classes.asp">HTML Classes</a></li>
+		<li><a href="https://www.w3schools.com/html/html_iframe.asp">HTML Iframes</a></li>
+		<li><a href="https://www.w3schools.com/html/html_scripts.asp">HTML Javascript</a></li>
+		<li><a href="https://www.w3schools.com/html/html_filepaths.asp">HTML File Paths</a></li>
+		<li><a href="https://www.w3schools.com/html/html_head.asp">HTML Head</a></li>
+		<li><a href="https://www.w3schools.com/html/html_layout.asp">HTML Layout</a></li>
+		<li><a href="https://www.w3schools.com/html/html_responsive.asp">HTML Responsive</a></li>
+		<li><a href="https://www.w3schools.com/html/html_computercode_elements.asp">HTML Computercode</a></li>
+		<li><a href="https://www.w3schools.com/html/html5_semantic_elements.asp">HTML Semantics</a></li>
+		<li><a href="https://w3schools.com/html/html5_syntax.asp">HTML Style Guide</a></li>
+		<li><a href="https://www.w3schools.com/html/html_entities.asp">HTML Entities</a></li>
+		<li><a href="https://www.w3schools.com/html/html_symbols.asp">HTML Symbols</a></li>
+		<li><a href="https://www.w3schools.com/html/html_charset.asp">HTML Charset</a></li>
+		<li><a href="https://www.w3schools.com/html/html_urlencode.asp">HTML Url Encode</a></li>
+		<br>
+		<li><h2>HTML Forms</h2></li>
+		<br>
+		<li><a href="https://www.w3schools.com/html/html_forms.asp">HTML Forms</a></li>
+		<li><a href="https://www.w3schools.com/html/html_form_elements.asp">HTML Form Elements</a></li>
+		<li><a href="https://www.w3schools.com/html/html_form_input_types.asp">HTML Input Types</a></li>
+		<li><a href="https://www.w3schools.com/html/html_form_attributes.asp">HTML Input Attributes</a></li>
+		<li><a href="https://www.w3schools.com/html/html_form_attributes_form.asp">HTML Input Form Attributes</a></li>
+		<br>
+		<li><h2>HTML Graphics</h2></li>
+		<br>
+		<li><a href="https://www.w3schools.com/html/html_media.asp">HTML Media</a></li>
+		<li><a href="https://www.w3schools.com/html/html5_video.asp">HTML Video</a></li>
+		<li><a href="https://www.w3schools.com/html/html5_audio.asp">HTML Audio</a></li>
+		<li><a href="https://www.w3schools.com/html/html_object.asp">HTML Plugins</a></li>
+		<li><a href="https://www.w3schools.com/html/html_youtube.asp">HTML Youtube</a></li>
+		<br><br>
+	</ul>
+  </div>
+</div>
+	
+	<!--offcanvas-nav end-->
+</div>
+
+	</div>
+<!--sidebar start -->
+    <div class="row ">
+      <div class="col-2 side-nav-bar">
+	  <!------>
+	  <div class="bar-body">
+        <div class="vertical-nav "id="sidebar">
+          <p class = "text-gray font-weight-bold text-uppercase px-3 pb-4 mb-0 mt-3"><b>JS Tutorial</b></p>
+          
+          <ul class="nav flex-column bg-white mb-0 ul-list-three ">
+            <li  class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS HOME   
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS Introduction  
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS Where To
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS Output
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS Statements 
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS Syntax
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS Comments 
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS Variables
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS Let
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS Const   
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS Operators   
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS Arithmetic
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS Assignment
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS Data Types
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS Functions
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS Objects
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS Events 
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS Strings  
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS String Methods 
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS String Search
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#"class="nav-link text-dark bg-light">
+                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+                   JS String Templates
+              </a>
+            </li>
+        
+          </ul>
+        </div>
+	<!------->
+	</div>
+			<!--sidebar end-->	
+      </div>
+	  
+	  
+		<!--main body-->
+      <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10">
+        <section >
+
+          <div class="container">
+            <h1>JavaScript Tutorial</h1>
+            <div class="row justify-content-evenly buttons" >
+              <div class="col-8">
+                <a class="btn btn-primary" href="https://www.w3schools.com/default.asp"><h5>❮ Home</h5></a>
+              </div>
+              <div class="col-2">
+                <a class="btn btn-primary" href="https://www.w3schools.com/js/js_intro.asp"><h5>Next ❯</h5></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="container bglightgreen">
+            <p>JavaScript is the world's most popular programming language.</p>
+            <p> JavaScript is the programming language of the Web.</p>
+            <p>JavaScript is easy to learn.</p>
+            <p>This tutorial will teach you JavaScript from basic to advanced.</p>
+            <div class="d-grid gap-2 col-4 mx-lg-3">
+              <a target="_blank" class="btn btn-primary" href="https://www.w3schools.com/js/js_intro.asp">Start learning JavaScript now »</a>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="container">
+            <h2>Examples in Each Chapter</h2>
+            <p>
+              With our "Try it Yourself" editor, you can edit the source code and view the result.
+            </p>
+            <div class="example">
+              <h3>Example</h3>
+              <div class="example-1">
+                <h2>My First JavaScript</h2>
+                <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">
+                  Click me to display Date and Time</button>
+                  <p id="demo"></p>
+              </div>
+              <p>
+                <a target="_blank" class="btn btn-primary" href="https://www.w3schools.com/js/tryit.asp?filename=tryjs_myfirst">Try it Yourself »</a>
+              </p>
+            </div>
+            <hr>
+            <h2>Use the Menu</h2>
+            <p>We recommend reading this tutorial, in the sequence listed in the menu.</p>
+            <p>If you have a large screen, the menu will always be present on the left.</p>
+            <p>If you have a small screen, open the menu by clicking the top menu sign <span class="w3-xlarge">☰</span>.</p>
+            <hr>
+            <h2>Learn by Examples</h2>
+            <p>Examples are better than 1000 words. Examples are often easier to understand than text explanations.</p>
+            <p>This tutorial supplements all explanations with clarifying "Try it Yourself" examples.</p>
+              <div class="note">
+                <p>If you try all the examples, you will learn a lot about JavaScript, in a very short time!</p>
+                <a class="btn btn-primary" href="https://www.w3schools.com/js/js_examples.asp">JavaScript Examples »</a>
+              </div>
+              <hr>
+              <h2>Why Study JavaScript?</h2>
+              <p>JavaScript is one of the <strong>3 languages</strong> all web developers <strong> must</strong> learn:</p>
+              <p>&nbsp;&nbsp; 1. <a href="https://www.w3schools.com/html/default.asp"><strong>HTML</strong></a> to define the content of web pages</p>
+              <p>&nbsp;&nbsp; 2. <a href="https://www.w3schools.com/css/default.asp"><strong>CSS</strong></a> to specify the layout of web pages</p>
+              <p>&nbsp;&nbsp; 3. <strong>JavaScript</strong> to program the behavior of web pages </p>
+              <div class="info">
+                <p>This tutorial covers every version of JavaScript:</p>
+                <ul>
+                <li>The Original JavaScript ES1 ES2 ES3 (1997-1999)</li>
+                <li>The First Main Revision ES5 (2009)</li>
+                <li>The Second Revision ES6 (2015)</li>
+                <li>The Yearly Additions (2016, 2017, 2018)</li>
+                </ul>
+              </div>
+              <hr>
+             <br>
+             <hr>
+             <h2>Learning Speed</h2>
+             <p>In this tutorial, the learning speed is your choice.</p>
+             <p>Everything is up to you.</p>
+             <p>If you are struggling, take a break, or re-read the material.</p>
+             <p><strong>Always</strong> make sure you understand <strong>all</strong> the "Try-it-Yourself" examples.</p>
+             <p>The only way to become a clever programmer is to: Practice. Practice. Practice. Code. Code. Code !</p>
+             <hr>
+             <form  id="exerciseform" action="" method="post">
+                <h3>Test Yourself With Exercises</h3>
+                <div class="exercisewindow">
+                    <h3>Exercise:</h3>
+                    <p>Create a variable called <code class="codespan">carName</code> and assign the value <code class="codespan">Volvo</code> to it.</p>
+                    <div class="exerciseprecontainer">
+                      var <input name="ex1" maxlength="7" style="width: 75px;"> = "<input name="ex2" maxlength="5" style="width: 54px;">";
+                  </div>
+                  <br>
+                  <button type="submit" class="btn btn-primary">Submit Answer »</button>
+                  <br>
+                  <p style="margin-top:20px ;"><a target="_blank" href="">Start the Exercise</a></p>
+                </div>
+              </form>
+              <hr>
+              <h2>Commonly Asked Questions</h2>
+              <ul>
+                <li>How do I get JavaScript?</li>
+                <li>Where can I download JavaScript?</li>
+                <li>Is JavaScript Free?</li>
+              </ul>
+              <b>
+                <p>You don't have to get or download JavaScript.</p>
+                <p>JavaScript is already running in your browser on your computer,
+                on your tablet, and on your smart-phone.</p>
+                <p>JavaScript is free to use for everyone.</p>
+              </b>
+              <hr>
+              <h2>My Learning</h2>
+              <p>Track your progress with the free "My Learning" program here at W3Schools.</p>
+              <p>Log into your account, and start earning points!</p>
+              <p>This is an optional feature, you can study W3Schools without using My Learning.</p>
+              <a href="https://my-learning.w3schools.com/" target="_blank">
+                <img id="img_mylearning" src="Logos/mylearning.png" style="max-width:100%;"></a>
+                <br>
+                <hr>
+                <h2>JavaScript References</h2>
+                <p>W3Schools maintains a complete JavaScript reference, including all HTML and browser objects.</p>
+                <p>The reference contains examples for all properties, methods and events, and 
+                  is continuously updated according to the latest web standards.<p>W3Schools maintains a complete JavaScript reference, including all HTML and browser objects.</p></p>
+                <a class="btn btn-primary" href="https://www.w3schools.com/jsref/default.asp">Complete JavaScript Reference »</a>
+                <hr>
+                <h2>JavaScript Quiz Test</h2>
+                <p>Test your JavaScript skills at W3Schools!</p>
+                <p><a href="https://www.w3schools.com/js/js_quiz.asp" class="ws-btn">Start JavaScript Quiz!</a></p>
+                <br>
+    
+                <div class="panel">
+                  <h1>Kickstart your career</h1>
+                  <p>Get certified by completing the JavaScript course</p>
+                  <a class="btn btn-primary" href="https://shop.w3schools.com/collections/course-catalog" target="_blank">Get certified</a>
+                  </div>
+                  <br>
+                  <div class="row justify-content-evenly buttons" >
+                    <div class="col-8">
+                      <a class="btn btn-primary" href="https://www.w3schools.com/default.asp"><h5>❮ Home</h5></a>
+                    </div>
+                    <div class="col-2">
+                      <a class="btn btn-primary" href="https://www.w3schools.com/js/js_intro.asp"><h5>Next ❯</h5></a>
+                    </div>
+                  </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+  <!-- JavaScript Bundle with Popper -->
+  <!--
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>-->
+<script src="bootstrap.min.js"></script>
+<script>
+    window.onscroll = function() {myFunction()};
+
+    // Get the navbar
+    var navbar = document.getElementById("navbar");
+
+    // Get the offset position of the navbar
+    var sticky = navbar.offsetTop;
+
+    // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+    function myFunction() 
+    {
+      if (window.pageYOffset >= sticky) 
+      {
+        navbar.classList.add("sticky")
+      } 
+      else 
+      {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
+</body>
+<style>
+
+.bar-body{
+    position:fixed;
+	height:500px;
+	overflow:auto;
+   
+}
+   .offcanvas-nav ul{
+  
+	 background:rgba(230,230,230,0.1);
+   }
+     .offcanvas-nav ul li{
+    list-style:none;
+	 margin-bottom:10px;
+	 background:white;
+   }
+     .offcanvas-nav ul li a{
+     text-decoration:none;
+	 color:black;
+   }
+
+@media screen and (max-width:1400px)
+{
+   .offcanvas-nav{
+     display:none;
+   }
+}
+
+@media screen and (max-width:1200px)
+{
+  .item12{
+	display:none;
+	}
+	.website-url{
+	display:none;
+	}
+
+}
+@media screen and (max-width:1150px)
+{
+  .item12,.item11{
+	display:none;
+	}
+}
+@media screen and (max-width:1050px)
+{
+  .item12,.item11,.item10{
+	display:none;
+	}
+}
+
+
+@media screen and (max-width:992px)
+{
+
+     .main-nav-ul-list{
+	   background;black;
+	 }
+
+    .item12,.item11,.item10,.item9{
+	display:none;
+	}
+	   	.side-nav-bar{
+	display:none;
+	}
+		   .offcanvas-nav{
+     display:block;
+	 position:relative;
+	 bottom:75px;
+	 margin-left:5px;
+   }
+   	   .second-un-list{
+    margin-left:50px;
+   }
+
+}
+@media screen and (max-width:900px)
+{
+    .item12,.item11,.item10,.item9,.item8{
+	display:none;
+	}
+	   	.side-nav-bar{
+	display:none;
+	}
+}
+@media screen and (max-width:800px)
+{
+    .item12,.item11,.item10,.item9,.item8,.item7{
+	display:none;
+	}
+	   	.side-nav-bar{
+	display:none;
+	}
+}
+
+
+@media screen and (max-width:700px)
+{
+    .item12,.item11,.item10,.item9,.item8,.item7,.item6{
+	display:none;
+	}
+   	.side-nav-bar{
+	display:none;
+	}
+	
+	   	.side-nav-bar{
+	display:none;
+	}
+}
+@media screen and (max-width:600px)
+{
+    .item12,.item11,.item10,.item9,.item8,.item7,.item6,.item5{
+	display:none;
+	}
+	   	.side-nav-bar{
+	display:none;
+	}
+   
+}
+
+
+@media screen and (max-width:576px)
+{
+       .item12,.item11,.item10,.item9,.item8,.item7,.item6,.item5,.item4,.item3,.item2{
+	display:none;
+	}
+	
+	   	.side-nav-bar{
+	display:none;
+	}
+}
+
+
+</style>
+
+<style>
+nav{
+height:80px;
+}
+.login{
+width:120px;
+border-radius:20px;
+background:rgb(6,138,63);
+color:white;
+border:1px solid white;
+text-align:center;
+}
+.login:hover{
+background-color:green;
+}
+
+.website-url{
+width:120px;
+
+color:white;
+border:1px solid white;
+border-radius:20px;
+text-align:center;
+}
+.website-url:hover{
+background-color:green;
+}
+
+.certificate{
+width:120px;
+border-radius:20px;
+background:rgb(243,132,65);
+color:white;
+border:1px solid white;
+text-align:center;
+}
+.certificate:hover{
+background-color:green;
+}
+
+.logo{
+width:45px;
+position:relative;
+left:16px;
+top:3px;
+}
+.ul-list-one{
+
+position:relative;
+left:25px;
+}
+.ul-list-one{
+
+margin:0px;
+}
+.ul-list-one li{
+	font-weight:500;
+	font-size:20px;
+	
+}
+.ul-list-one li:hover{
+background-color:green;
+color:white;
+}
+.ul-list-two li a img:hover{
+color:green;
+}
+
+@media screen and (max-width:1400px)
+{
+.extra{
+  display:none;
+}
+
+.ul-list-one li ul{
+
+ background:black;
+}
+.ul-list-one li{
+   border-bottom:1px solid white;
+}
+.ul-list-one li ul li a{
+color:white;
+}
+   
+}
+
+@media screen and (max-width:1200px)
+{
+
+}
+
+@media screen and (max-width:992px)
+{
+ .menu-btn color{
+	 color:white;
+ }
+.extra{
+  display:block;
+}
+.ul-list-one{
+  left:0px;
+  border:1px solid black;
+
+}
+.ul-list-one li a{
+ text-align:center;
+}
+.ul-list-two{
+  display:none;
+}
+}
+
+@media screen and (max-width:768px)
+{
+   
+}
+
+
+@media screen and (max-width:576px)
+{
+   
+}
+</style>
+
+</html>
