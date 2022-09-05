@@ -13,3 +13,19 @@
 |[Lachlan Da Silva](/teams/members/lachlan.md)| lachsilva3 | Html,CSS,MySQL,JavaScript(Basics) | SRIEIT |
 
 
+### Week 1 - Summary 
+
+##### Learning Summary for Week 1
+
+
+### Week 2 - Summary 
+
+| Group Name | Member Name | Topic  | Loom Video Link |
+|------------|-------------|--------|-----------------|
+| Group-1    | x,y         | abcd   | somelink.com    |
+| Group-2    | x,y         |        |                 |
+| Group-3    | x,y         |        |                 |
+| Cryptic    | x,y         |        |                 |
+
+
+##### Learning Summary for Week 2 
