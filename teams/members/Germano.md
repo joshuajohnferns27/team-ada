@@ -24,5 +24,5 @@
 
 ## Profile
 
-- [LinkedIn] (https://www.linkedin.com/in/germano-d-costa-a62b23154)
-- [GitHub] (https://github.com/Germano06)
+- [LinkedIn](https://www.linkedin.com/in/germano-d-costa-a62b23154)
+- [GitHub](https://github.com/Germano06)
