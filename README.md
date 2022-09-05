@@ -29,6 +29,6 @@
 | Group-2    |- Germano D'Costa <br> - Omkar |- Docker and Docker Compose <br> - How to use docker for your development  |  Germano D'Costa - <br> https://www.loom.com/share/5bfaab46dcb74e358559da4e32e5d4af <br> Omkar Redkar - <br> https://www.loom.com/share/627980d339ed4285aeec2c0a7bc63df1 |
 | Group-3    | - Vaibhav Kamat <br> - Lachlan Da Silva | - NodeJS <br> - How to create REST API's | Vaibhav Kamat - <br> https://www.loom.com/share/43268e6cbc1e4501badb5e439b2a1d7f <br> Lachlan Da Silva - <br> https://loom.com/share/f68fd8c3d0c441e4965894a1bbefb924 |
 | Group-4    | - Athena Rodrigues <br> - Joshua fernandes | - ORM <br> - Authentication and Authorization | Athena Rodrigues - <br> https://www.loom.com/share/505e203b3e4146398040d1bc8ec5a79a <br> https://www.loom.com/share/505e203b3e4146398040d1bc8ec5a79a <br> Joshua fernandes - <br> https://www.loom.com/share/09e5437cec754cb8a0c9822d5fb52424 |
-| Group-5    | - Siddhant Desai <br> - Nirzar Panvelkar | - Node modules and NPM packages <br> - What is nodeJS |  Nirzar Panvelkar - https://drive.google.com/file/d/1oRbH6pckcdSLPL1VhDenV0jmDGZsQG_X/view?usp=drivesdk |
+| Group-5    | - Siddhant Desai <br> - Nirzar Panvelkar | - Node modules and NPM packages <br> - What is nodeJS |  Nirzar Panvelkar -<br> Siddhant Desai - <br> https://drive.google.com/file/d/1oRbH6pckcdSLPL1VhDenV0jmDGZsQG_X/view?usp=drivesdk |
 
 ##### Learning Summary for Week 2 
