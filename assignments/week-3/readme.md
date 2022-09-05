@@ -6,6 +6,7 @@ Refer to the PDF file with the instructions for Quotes Application.
 - Create a REST Application using NestJS
 - Database : PostgresSQL
 - Database Client: PgAdmin
+- Use the Docker compose file to connect to Database and Database client. file name `docker-compose.yml
 
 ### Tasks to be completed 
 - CRUD Operations for Quotes Entity
@@ -58,8 +59,7 @@ Refer to the PDF file with the instructions for Quotes Application.
         "dilikes": 1,
         "isActive": true,
         "_id": "616815ef04b3cd0015fb797f",
-        "qu
-        ]te": "To be or not to be, it's upto you!                           ",
+        "quote": "To be or not to be, it's upto you!                           ",
         "author": "Ivo Costa",
         "tags": "life;",
         "__v": 0
