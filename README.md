@@ -15,7 +15,7 @@
 |[Siddhant Desai](/teams/members/Siddhant.md)| sidesai2001 | HTML,CSS,Javascript,C++,Java,MySQL | DBCE |
 |[Nirzar Panvelkar](/teams/members/Nirzar.md)| nirrp | HTML,CSS,Javascript,PHP,C,C++,MySQL | DBCE |
 |[Joshua Fernandes](/teams/members/Joshua.md)| joshuajohnferns27 | HTML,CSS,Javascript,PHP,C,C++,MySQL | DBCE |
-|[Germano D'Costa]([/teams/members/Germano.md)| Germano06 | HTML,CSS,Java,C,C++,MySQL,Python | DBCE |
+|[Germano D'Costa](/teams/members/Germano.md)| Germano06 | HTML,CSS,Java,C,C++,MySQL,Python | DBCE |
 
 ### Week 1 - Summary 
 
