@@ -14,6 +14,7 @@
 |[Athena Rodrigues](/teams/members/athena.md)| athena46 | Html,CSS,MySQL,JavaScript(Basics),C++,Python | DBCE |
 |[Siddhant Desai](/teams/members/Siddhant.md)| sidesai2001 | HTML,CSS,Javascript,C++,Java,MySQL | DBCE |
 |[Nirzar Panvelkar](/teams/members/Nirzar.md)| nirrp | HTML,CSS,Javascript,PHP,C,C++,MySQL | DBCE |
+|[Joshua Fernandes](/teams/members/Joshua.md)| joshuajohnferns27 | HTML,CSS,Javascript,PHP,C,C++,MySQL | DBCE |
 
 ### Week 1 - Summary 
 
