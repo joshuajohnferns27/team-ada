@@ -24,7 +24,7 @@ h1 {
 
   .buttonbox {
     display: flex;
-    min-height:80vh;
+    min-height:45vh;
     align-items: center;
     flex-direction: column;
     gap: 20px;
@@ -36,10 +36,9 @@ h1 {
     color: white;
     text-decoration: none;
     text-transform: '';
-    font-size: 1.0cm;
     letter-spacing: 0.16cm;
     font-weight: 300;
-    padding:15px 23px;
+    padding:15px 40px;
     transition: 0.5s;
     
   }
@@ -106,10 +105,9 @@ h1 {
     color:white;
     text-decoration: none;
     text-transform: '';
-    font-size: 0.85cm;
     letter-spacing: 0.16cm;
     font-weight: 300;
-    padding:20px 19px;
+    padding:15px 22px;
     transition: 0.5s;
     
   }
@@ -120,10 +118,9 @@ h1 {
     color: white;
     text-decoration: none;
     text-transform: '';
-    font-size: 0.8cm;
     letter-spacing: 0.16cm;
     font-weight: 300;
-    padding:20px 12px;
+    padding:15px 17px;
     transition: 0.5s;
     
   }
@@ -134,10 +131,9 @@ h1 {
     color: white;
     text-decoration: none;
     text-transform: '';
-    font-size: 0.8cm;
     letter-spacing: 0.15cm;
     font-weight: 300;
-    padding:19px 17px;
+    padding:15px 19px;
     transition: 0.5s;
     
   }

@@ -33,4 +33,19 @@ Continue working on the next tasks of Quotest Application
 - Clicking on Author should take the user to the selected quotes of that user
 
 
+## Presentation on completed Tasks
+
+- Each team will be presenting what they have done for the last two weeks
+- You can demo the site/work you have done. No need of a presentation
+- Should able to provide summary of all the work/learning process
+- Below are the topics
+  - Markdown 
+  - Docker 
+  - HTML/CSS
+  - JavaScript
+  - ReactJS
+ - Note : not everyone has to give demo on all topics, max two people can give a demo/presentation on 1 topic. Coordinate between each other to decide.
+ 
+ **Aliyaj Ahemad** will be the person who will help in coordinating the above and provide me details of each group. 
+
 
