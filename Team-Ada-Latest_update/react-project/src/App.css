@@ -1,0 +1,132 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
+body {
+  background-color: #eee8aadb;
+  font-family: "Sofia", sans-serif;
+}
+.main h1 {
+  padding-top: 60px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+@keyframes anime {
+  0% {
+    background-color: #9afeff;
+  }
+  20% {
+    background-color: #cb6d51;
+  }
+  50% {
+    background-color: #98afc7;
+  }
+  50% {
+    background-color: #00fa9a;
+  }
+  100% {
+    background-color: #e0ffff;
+  }
+}
+
+.main {
+  padding: 0%;
+  animation: anime 30s infinite;
+}
+
+.maincol {
+  padding: 80px;
+  background-color: #fed8b1;
+  box-sizing: border-box;
+  display: inline;
+  font-size: 16px;
+  text-align: center;
+}
+
+.maincol2 {
+  display: inline;
+  padding: 30px;
+  max-height: max-content;
+  line-height: 40px;
+  background-color: coral;
+  font-size: 16px;
+}
+
+.tabs {
+  padding-top: 10px;
+}
+
+.forbtn {
+  text-align: center;
+}
+
+#bb {
+  padding-left: 20px;
+}
+
+.tabs button {
+  border: none;
+  outline: none;
+  background-color: pink;
+  padding: 14px 16px;
+  font-size: 20px;
+}
+.tabs button:hover {
+  background-color: magenta;
+}
+.tabs button:focus {
+  background-color: #bcc6cc;
+}
+#search {
+  padding: 3px;
+}
+
+.search-bar {
+  padding-left: 50px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.newAdd {
+  float: right;
+  margin-right: 2%;
+  font-size: 18px;
+  font-weight: 500;
+}
