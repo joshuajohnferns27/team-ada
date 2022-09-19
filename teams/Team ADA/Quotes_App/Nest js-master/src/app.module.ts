@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 
-import { AuthorModule } from './author/author.module';
+import { AuthorModule } from './quotes/author.module';
 
 @Module({
   imports: [AuthorModule,
@@ -13,7 +13,9 @@ import { AuthorModule } from './author/author.module';
       password: 'dev-user',
       database: 'quotes-app',
       synchronize: true,
-      entities:[__dirname + '/**/*.entity{.ts,.js}']
+      entities:[__dirname + '/**/*.entity{.ts,.js}',   
+    ]
+      
     }),
 ],
   
