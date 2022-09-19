@@ -3,14 +3,14 @@ import { Column, Entity, Generated, PrimaryColumn, PrimaryGeneratedColumn } from
 
 @Entity()
 export class Quotes {
-    @PrimaryColumn({type:"uuid"})
-    @Generated("uuid")
-    id:string;
+    
+    @PrimaryGeneratedColumn("uuid")
+    _id:string;
 
     @Column({nullable:true})
     __v: string;
    
-    @Column()
+    @Column({name:"author"})
     AName: string;
    
     @Column()

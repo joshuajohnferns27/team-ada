@@ -20,6 +20,10 @@ export class AuthorService {
     author.quote=createAuthorDto.quote;
     author.isActive=createAuthorDto.isActive;
     author.tags=createAuthorDto.tags;
+    if (!author){
+      const errors={author:'not found'}
+            throw new HttpException({errors},404);
+    }
     return this.authorRepository.save(author);
   }
 
@@ -27,8 +31,8 @@ export class AuthorService {
     return this.authorRepository.find();
   }
 
-  async findById(id: string):Promise<Quotes>{
-    const author=await this.authorRepository.findOneBy({id:id});
+  async findById(_id: string):Promise<Quotes>{
+    const author=await this.authorRepository.findOneBy({_id:_id});
     if (!author){
       const errors={author:'not found'}
             throw new HttpException({errors},404);
@@ -37,7 +41,7 @@ export class AuthorService {
   }
 
 
-  update(id: string, updateAuthorDto: UpdateAuthorDto) {
+  update(_id: string, updateAuthorDto: UpdateAuthorDto) {
     let author:Quotes= new Quotes();
     author.__v=updateAuthorDto.__v;
     author.AName=updateAuthorDto.AName;
@@ -46,12 +50,18 @@ export class AuthorService {
     author.quote=updateAuthorDto.quote;
     author.isActive=updateAuthorDto.isActive;
     author.tags=updateAuthorDto.tags;
+    if (!author){
+      const errors={author:'not found'}
+            throw new HttpException({errors},404);
+    }
+
     return this.authorRepository.save(author)
     
   }
 
-  remove(id: string) {
-    return this.authorRepository.delete(id);
+  remove(_id: string) {
+    
+    return this.authorRepository.delete(_id);
   }
 
 
