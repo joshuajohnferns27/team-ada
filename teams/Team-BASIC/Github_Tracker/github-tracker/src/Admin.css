@@ -1,0 +1,58 @@
+.Auth-form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Auth-form {
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 30px;
+  background-color: white;
+}
+
+.Auth-form-content {
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(34, 34, 34);
+}
+
+.heading {
+    text-align: center;
+    font-size: 80px;
+    margin-top: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.sub-heading {
+  font-size: 50px;
+  margin-top: 30px;
+  margin-bottom: 90px;
+  color: rgb(255, 255, 255);
+}
+
+.btn {
+  margin-top: 40px;
+  width: 90px;
+  height: 40px;
+  justify-self: center;
+  border-radius: 30px;
+}
+
+#pass {
+  display: flex;
+  flex-direction: row;
+}
+
+#eye {
+  align-self: center;
+  margin-left: -30px;
+}
