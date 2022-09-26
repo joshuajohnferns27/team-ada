@@ -1,11 +1,9 @@
 import React from "react";
-import { useState } from "react";
+
 import { Link } from "react-router-dom";
 import "./Adminlogin.css";
 
 export default function Adminlogin() {
-  const [pwShown, setpwShown] = useState(0);
-
   function hoverOut() {
     var p = document.getElementById("pwd");
     p.setAttribute("type", "password");
