@@ -1,10 +1,8 @@
 import React from "react";
-import { useState } from "react";
+
 import { Link } from "react-router-dom";
 
 export default function Adminsignup() {
-  const [pwShown, setpwShown] = useState(0);
-
   function hoverOut() {
     var p = document.getElementById("pwd");
     p.setAttribute("type", "password");
@@ -18,7 +16,7 @@ export default function Adminsignup() {
     <>
       <div className="overlay">
         {/* LOGN IN FORM by Omar Dsoky */}
-        <form>
+        <form className="adminLoginForm">
           {/*  con = Container  for items in the form  */}
           <div className="con">
             {/*  Start  header Content */}

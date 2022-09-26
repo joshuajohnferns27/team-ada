@@ -30,7 +30,7 @@ body {
 /* End body rules */
 
 /* Start form  attributes */
-form {
+.adminLoginForm {
   width: 450px;
   min-height: 500px;
   height: auto;
@@ -43,7 +43,7 @@ form {
 }
 
 /* form Container */
-form .con {
+.con {
   display: -webkit-flex;
   display: flex;
 
