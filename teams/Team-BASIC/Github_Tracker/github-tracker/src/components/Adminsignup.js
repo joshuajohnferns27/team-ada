@@ -18,7 +18,7 @@ export default function Adminsignup() {
     <>
       <div className="overlay">
         {/* LOGN IN FORM by Omar Dsoky */}
-        <form>
+        <form className="adminLoginForm">
           {/*  con = Container  for items in the form  */}
           <div className="con">
             {/*  Start  header Content */}

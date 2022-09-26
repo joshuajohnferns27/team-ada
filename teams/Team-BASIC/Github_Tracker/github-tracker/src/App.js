@@ -1,6 +1,5 @@
-import "./Adminlogin.css";
-
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Adduser from "./components/Adduser";
 import Adminlogin from "./components/Adminlogin";
 import Adminsignup from "./components/Adminsignup";
 
@@ -11,6 +10,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Adminlogin />} />
           <Route path="/signup" element={<Adminsignup />} />
+          <Route path="/add" element={<Adduser />} />
         </Routes>
       </BrowserRouter>
     </>

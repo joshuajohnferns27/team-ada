@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import "./Adminlogin.css";
 
 export default function Adminlogin() {
   const [pwShown, setpwShown] = useState(0);
@@ -18,7 +19,7 @@ export default function Adminlogin() {
     <>
       <div className="overlay">
         {/* LOGN IN FORM by Omar Dsoky */}
-        <form>
+        <form className="adminLoginForm">
           {/*  con = Container  for items in the form  */}
           <div className="con">
             {/*  Start  header Content */}
