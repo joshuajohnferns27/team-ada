@@ -26,10 +26,10 @@ export default function Adminsignup() {
           </div>
           <nav className="nav" id="nav">
             <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Add User</a></li>
-              <li><a href="#">Delete User</a></li>
-              <li><Link style={{textDecoration: 'none',color: "white"}} className="link" to="/">Logout</Link></li>
+              <li><Link className="link" to="/dashboard">Home</Link></li>
+              <li><Link className="link" to="/add">Add User</Link></li>
+              <li><Link className="link" to="/delete">Delete User</Link></li>
+              <li><Link className="link" to="/">Logout</Link></li>
             </ul>
           </nav> 
         </div>

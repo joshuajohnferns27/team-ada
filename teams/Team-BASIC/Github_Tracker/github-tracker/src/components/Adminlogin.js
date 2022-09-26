@@ -1,7 +1,7 @@
 import React from "react";
 
 import { Link } from "react-router-dom";
-import "./Adminlogin.css";
+import "./Admin.css"
 
 export default function Adminlogin() {
   function hoverOut() {
