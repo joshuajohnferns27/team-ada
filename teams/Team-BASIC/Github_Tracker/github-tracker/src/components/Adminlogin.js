@@ -14,53 +14,31 @@ export default function Adminlogin() {
   }
 
   return (
-    <>
-      <div className="overlay">
-        {/* LOGN IN FORM by Omar Dsoky */}
-        <form className="adminLoginForm">
-          {/*  con = Container  for items in the form  */}
-          <div className="con">
-            {/*  Start  header Content */}
-            <header className="head-form">
-              <h2>Log In</h2>
-              {/*    A welcome message or an explanation of the login form */}
-              <p>login here using your email and password</p>
-            </header>
-            {/*     End  header Content */}
-            <br />
-            <div className="field-set">
-              {/*   user name */}
-              <span className="input-item">
-                <i className="fa fa-user-circle"></i>
-              </span>
-              {/*   user name Input*/}
+    <>  
+        <div className="Auth-form-container">
+        <h1 className="heading">Github Tracker</h1>
+        <h2 className="sub-heading">Login</h2>
+        <form className="Auth-form">
+          <div className="Auth-form-content">
+            <div className="form-group mt-3">
+              <label>Username / Email</label>
               <input
-                className="form-input"
-                id="txt-input"
-                type="text"
-                placeholder="UserName"
-                required
+                type="email"
+                className="form-control mt-1"
+                placeholder="Enter Email"
+                aria-required
               />
-
-              <br />
-
-              {/*   Password */}
-
-              <span className="input-item">
-                <i className="fa fa-key"></i>
-              </span>
-              {/*   Password Input*/}
-              <input
-                className="form-input"
-                type="password"
-                placeholder="Password"
-                id="pwd"
-                name="password"
-                required
-              />
-
-              {/*      Show/hide password  */}
-              <span>
+            </div>
+            <div className="form-group mt-3">
+              <label>Password</label>
+              <div id="pass">
+                <input
+                  type="password"
+                  id="pwd"
+                  className="form-control mt-1"
+                  placeholder="Enter Password"
+                  aria-required
+                />
                 <i
                   className="fa fa-eye"
                   aria-hidden="true"
@@ -68,34 +46,19 @@ export default function Adminlogin() {
                   id="eye"
                   onMouseOver={hoverIn}
                   onMouseLeave={hoverOut}
-                ></i>
-              </span>
-
-              <br />
-              <br />
-              <br />
+                  ></i>
+                </div>
             </div>
-
-            {/*   other buttons */}
-            <div className="other">
-              {/*      Forgot Password button*/}
-              <button className="btn submits frgt-pass">Sign In</button>
-              {/*     Sign Up button */}
-
-              <button className="btn submits sign-up">
-                <Link className="link" to="/signup">
-                  Sign In
-                </Link>
-                {/*         Sign Up font icon */}
-                <i className="fa fa-user-plus" aria-hidden="true"></i>
-              </button>
-              {/*      End Other the Division */}
+            <div className="d-grid gap-2 mt-3">
+              <button type="submit" className="btn btn-outline-dark">
+              <Link style={{textDecoration: 'none',color: "black"}} className="link" to="/dashboard"> Sign In</Link>
+              </button>&nbsp;
             </div>
-
-            {/*   End Conrainer  */}
+            <p className="forgot-password text-center mt-2">
+              Don't have an account? 
+              <Link style={{textDecoration: 'none'}} className="link" to="/signup"> Sign Up</Link>
+            </p>
           </div>
-
-          {/* End Form */}
         </form>
       </div>
     </>
