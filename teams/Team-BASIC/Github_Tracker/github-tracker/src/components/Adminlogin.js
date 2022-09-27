@@ -50,7 +50,7 @@ export default function Adminlogin() {
                 </div>
             </div>
             <div className="d-grid gap-2 mt-3">
-              <button type="submit" className="btn btn-outline-dark">
+              <button id="bt" type="button" className="btn btn-outline">
               <Link style={{textDecoration: 'none',color: "black"}} className="link" to="/dashboard"> Sign In</Link>
               </button>&nbsp;
             </div>
