@@ -37,3 +37,9 @@
 |------------|------------|------------|------------|
 |Frontend|Login page|Dashboard page|Add/remove user page.|
 |Backend|Tables for System user,<br/>Local user.|Table to save user history|Connection with frontend.|
+
+### Team BASIC Summary
+| Tasks |  Tasks Completed|  Tasks in progress|  Tasks not completed| 
+|------------|------------|------------|------------|
+|Frontend||||
+|Backend||||
