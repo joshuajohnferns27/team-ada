@@ -41,5 +41,5 @@
 ### Team BASIC Summary
 | Tasks |  Tasks Completed|  Tasks in progress|  Tasks not completed| 
 |------------|------------|------------|------------|
-|Frontend||||
-|Backend||||
+|Frontend|Add user and login components|Page components|Dashboard page|
+|Backend|Table for System user, Employee and User history.|env file for connection string|authentication and connection with frontend|
