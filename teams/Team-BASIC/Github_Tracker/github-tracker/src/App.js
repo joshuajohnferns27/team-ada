@@ -1,27 +1,20 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css"
-import "./components/Admin.css";
-import Adminlogin from "./components/Adminlogin";
-import Adminsignup from "./components/Adminsignup";
-import DashBoard from "./components/DashBoard"
-import Deleteuser from "./components/Deleteuser";
-import Adduser from "./components/Adduser";
-import Done from "./components/Done";
-
+import { Route, Routes } from "react-router-dom";
+import Adminlogin from "./pages/Adminlogin";
+import Adduser from "./pages/Adduser";
+import Dashboard from "./pages/DashBoard";
+import Fpass from "./components/Cards/Forgot_pass/Fpass";
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
+    <>  
         <Routes>
-          <Route path="/" element={<Adminlogin />} />
-          <Route path="/signup" element={<Adminsignup />} />
+          <Route path="/" exact element={<Adminlogin />} />
           <Route path="/add" element={<Adduser />} />
-          <Route path="/delete" element={<Deleteuser />} />
-          <Route path="/dashboard" element={<DashBoard />} />
-          <Route path="/done" element={<Done />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/pass" element={<Fpass/>} />
         </Routes>
-      </BrowserRouter>
+      
     </>
   );
 }
