@@ -32,4 +32,14 @@
 | Group-4    | - Athena Rodrigues <br> - Joshua fernandes | - ORM <br> - Authentication and Authorization | Athena Rodrigues - <br>  https://www.loom.com/share/505e203b3e4146398040d1bc8ec5a79a <br> Joshua fernandes - <br> https://www.loom.com/share/09e5437cec754cb8a0c9822d5fb52424 |
 | Group-5    | - Siddhant Desai <br> - Nirzar Panvelkar | - Node modules and NPM packages <br> - What is nodeJS |  Nirzar Panvelkar -<br> Siddhant Desai - <br> https://drive.google.com/file/d/1oRbH6pckcdSLPL1VhDenV0jmDGZsQG_X/view?usp=drivesdk |
 
-##### Learning Summary for Week 2 
+### Team ADA Summary
+| Tasks |  Tasks Completed|  Tasks in progress|  Tasks not completed| 
+|------------|------------|------------|------------|
+|Frontend|Login page|Dashboard page|Add/remove user page.|
+|Backend|Tables for System user,<br/>Local user.|Table to save user history|Connection with frontend.|
+
+### Team BASIC Summary
+| Tasks |  Tasks Completed|  Tasks in progress|  Tasks not completed| 
+|------------|------------|------------|------------|
+|Frontend|Add user and login components|Page components|Dashboard page|
+|Backend|Table for System user, Employee and User history.|env file for connection string|authentication and connection with frontend|
