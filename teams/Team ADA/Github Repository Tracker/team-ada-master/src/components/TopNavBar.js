@@ -1,4 +1,5 @@
 import "./TopNavBar.css";
+import Navbar from 'react-bootstrap/Navbar';
 function TopNavBar() {
   return (
     <nav class="navbar navbar-dark bg-dark p-4">
@@ -13,11 +14,9 @@ function TopNavBar() {
         >
           <i className="fa fa-bars hamburger"></i>
         </button>
-        <ul>
-          <li>
-            <a href="#fas">Home</a>
-          </li>
-        </ul>
+      
+          <Navbar.Brand href="/useradd">Add user</Navbar.Brand>
+          
       </>
     </nav>
   );

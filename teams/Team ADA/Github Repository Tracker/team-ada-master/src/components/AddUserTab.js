@@ -1,4 +1,5 @@
 import Nav from "react-bootstrap/Nav";
+import Add from "./useradd";
 function AddUserTab() {
   return (
     <>
@@ -7,7 +8,7 @@ function AddUserTab() {
           <div className="panel border bg-white">
             <Nav justify variant="tabs" defaultActiveKey="/home">
               <Nav.Item>
-                <Nav.Link href="/home">Add User</Nav.Link>
+                <Nav.Link href="/useradd">Add User</Nav.Link>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link href="/home">Add User Using CSV File</Nav.Link>
