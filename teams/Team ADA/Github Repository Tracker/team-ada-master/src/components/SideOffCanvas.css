@@ -1,0 +1,16 @@
+.list {
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.list a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.list a {
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
