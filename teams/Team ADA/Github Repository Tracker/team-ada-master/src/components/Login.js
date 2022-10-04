@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import UserData from "./UserData";
 import "./Login.css";
 function Login() {
   const [email, setEmail] = useState("");
@@ -53,6 +53,7 @@ function Login() {
           </div>
         </div>
       </div>
+      <UserData />
     </div>
   );
 }
