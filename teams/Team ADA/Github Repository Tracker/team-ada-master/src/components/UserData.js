@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import "./UserData.css";
 function UserData() {
   const [record, setRecord] = useState([]);
   const getData = () => {
@@ -11,7 +11,7 @@ function UserData() {
     getData();
   });
   return (
-    <div>
+    <div className="grid_table">
       <table>
         <thead>
           <tr>

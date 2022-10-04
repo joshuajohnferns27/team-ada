@@ -1,15 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import UserData from "./UserData";
 import "./Login.css";
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   return (
-    <div className="container">
+    <div className="container loginbox">
       <div className="row formbox  ">
         <div className="offset-md-2 col-lg-4 col-md-7 offset-lg-4 offset-md-3">
-          <div className="panel border bg-white form">
+          <div className="panel border bg-white form centerbox">
             <div className="panel-heading heading">
               <h3 className="pt-3 font-weight-bold">Login</h3>
             </div>
@@ -32,6 +31,7 @@ function Login() {
                       className="bi bi-lock-fill"
                       type="password"
                       placeholder="Enter your Password"
+                      value={password}
                       onChange={(e) => setPassword(e.target.value)}
                       required
                     ></input>
@@ -53,7 +53,6 @@ function Login() {
           </div>
         </div>
       </div>
-      <UserData />
     </div>
   );
 }

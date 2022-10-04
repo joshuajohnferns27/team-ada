@@ -1,5 +1,4 @@
 import "./SideOffCanvas.css";
-
 import { Outlet, Link } from "react-router-dom";
 function SideOffCanvas() {
   return (
@@ -26,9 +25,12 @@ function SideOffCanvas() {
 
         <div className="offcanvas-body list">
           <p>
-            <a href="/">Home</a>
-            <Link to="/">Logout</Link>
+            <a href="/Dashboard">Home</a>
+            <Link to="/UserGrid">View All Users</Link>
           </p>
+          <div className="logout">
+            <a href="/">Logout</a>
+          </div>
         </div>
       </div>
       <Outlet />

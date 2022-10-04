@@ -3,13 +3,10 @@
   margin: 0;
   box-sizing: border-box;
 }
-body {
-  height: 100vh;
-  background: linear-gradient(to top, #03b6a7 50%, #68686863 90%) no-repeat;
+.centerbox {
+  padding: 50px;
 }
-.formbox {
-  margin-top: 10%;
-}
+
 .form {
   min-height: 300px;
   box-shadow: 20px 20px 80px rgb(218, 218, 218);
@@ -38,8 +35,14 @@ input {
   float: right;
 }
 
-.container {
-  margin: 50px auto;
+.loginbox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(to top, #03b6a7 50%, #68686863 80%) no-repeat;
+  border-radius: 15px;
+  padding: 0%;
 }
 .btn.btn-success {
   margin-top: 20px;
@@ -49,9 +52,6 @@ input {
 @media (max-width: 360px) {
   body {
     height: 100%;
-  }
-  .container {
-    margin: 30px 0;
   }
 }
 a[target="_blank"] {

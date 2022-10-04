@@ -10,7 +10,7 @@ function Dashboard() {
     <>
       <TopNavBar />
       <SideOffCanvas />
-      <div className="container">
+      <div className="container ">
         <div className="row box">
           <div className="centrebox ">
             <div className="main_box  panel border ">
