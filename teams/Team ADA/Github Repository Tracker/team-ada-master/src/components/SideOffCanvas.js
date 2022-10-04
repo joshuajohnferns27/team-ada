@@ -1,11 +1,9 @@
 import "./SideOffCanvas.css";
-import TopNavBar from "./TopNavBar";
+
 import { Outlet, Link } from "react-router-dom";
 function SideOffCanvas() {
   return (
     <>
-      <TopNavBar></TopNavBar>
-
       <div
         class="offcanvas offcanvas-start text-bg-dark"
         data-bs-scroll="true"

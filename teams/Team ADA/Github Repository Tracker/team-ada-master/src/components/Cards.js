@@ -8,7 +8,7 @@ function Cards() {
   return (
     <Container>
       <Row>
-        <Col xs={4}>
+        <Col className="card1">
           {["Primary"].map((variant) => (
             <Card
               bg={variant.toLowerCase()}
@@ -29,7 +29,7 @@ function Cards() {
           ))}
         </Col>
 
-        <Col xs={4}>
+        <Col className="card1">
           {["Danger"].map((variant) => (
             <Card
               bg={variant.toLowerCase()}
@@ -50,7 +50,7 @@ function Cards() {
           ))}
         </Col>
 
-        <Col xs={4}>
+        <Col className="card1">
           {["Info"].map((variant) => (
             <Card
               bg={variant.toLowerCase()}
@@ -69,7 +69,7 @@ function Cards() {
             </Card>
           ))}
         </Col>
-        <Col xs={4}>
+        <Col className="card1">
           {["Dark"].map((variant) => (
             <Card
               bg={variant.toLowerCase()}
