@@ -26,7 +26,7 @@ const QuoteApp = () => {
                   <p><b >&nbsp~${values.author}</b></p>
                   <li>Likes:&nbsp${values.likes}</li>
                   <li>Dislikes:&nbsp${values.dislikes}</li>
-                    <br>  <br>     
+                    <br> <br>     
               `;
         });
         document.getElementById("names").innerHTML = list;
