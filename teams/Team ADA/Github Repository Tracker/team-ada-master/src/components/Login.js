@@ -38,7 +38,7 @@ function Login() {
                   </div>
                 </div>
                 <div className="forgot">
-                  <a href="#as">Forgot Password?</a>
+                  <a href="/resetpassword">Forgot Password?</a>
                 </div>
                 <br />
                 <div className="text-center">

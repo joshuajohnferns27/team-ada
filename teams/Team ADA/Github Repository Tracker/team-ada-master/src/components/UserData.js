@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "./UserData.css";
 function UserData() {
   const [record, setRecord] = useState([]);
@@ -23,7 +24,9 @@ function UserData() {
           {record.map((output) => (
             <tr>
               <td>{output.login}</td>
-              <td>{output.repos_url}</td>
+              <td>
+                <Link>{output.repos_url}</Link>
+              </td>
             </tr>
           ))}
         </tbody>

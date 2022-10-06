@@ -7,6 +7,7 @@ import Login from "./components/Login";
 import AddUserTab from "./components/AddUserTab";
 import Add from "./components/useradd";
 import UserGrid from "./components/UserGrid";
+import ResetPassword from "./components/ResetPassword";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
           <Route path="/useradd" element={<Add />}></Route>
           <Route path="/addusertab" element={<AddUserTab />}></Route>
           <Route path="/UserGrid" element={<UserGrid />}></Route>
+          <Route path="/resetpassword" element={<ResetPassword />}></Route>
         </Routes>
       </Router>
     </>
