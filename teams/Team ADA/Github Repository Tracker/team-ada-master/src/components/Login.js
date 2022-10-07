@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import axios from "axios";
 import "./Login.css";
 function Login() {
   const [email, setEmail] = useState("");
@@ -42,10 +43,12 @@ function Login() {
                 </div>
                 <br />
                 <div className="text-center">
-                  <Link to="/dashboard">
-                    <div className="btn btn-success btn-block mt-3 text-center">
-                      Login
-                    </div>
+                  <Link to="/Dashboard">
+                    <input
+                      type="submit"
+                      className="btn btn-success btn-block mt-3 text-center"
+                      value="Login"
+                    ></input>
                   </Link>
                 </div>
               </form>

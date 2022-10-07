@@ -2,7 +2,9 @@
   background-color: #2a2a2a;
 }
 .b1 {
-  color: white;
   font-size: 20px;
   text-decoration: none;
+}
+.b1:hover {
+  background-color: gray;
 }

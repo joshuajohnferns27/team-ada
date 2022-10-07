@@ -9,10 +9,14 @@ function AddUserTab() {
           <div className="panel border buttons">
             <Nav justify variant="tabs">
               <Nav.Item className="b1">
-                <Nav.Link href="/useradd">Add User</Nav.Link>
+                <Nav.Link className="text-white" href="/useradd">
+                  Add User
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item className="b1">
-                <Nav.Link href="/home">Add User Using CSV File</Nav.Link>
+                <Nav.Link className="text-white" href="/home">
+                  Add User Using CSV File
+                </Nav.Link>
               </Nav.Item>
             </Nav>
           </div>
