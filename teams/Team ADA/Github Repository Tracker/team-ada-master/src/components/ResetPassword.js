@@ -13,11 +13,9 @@ function ResetPassword() {
 
   const [error, setError] = useState("");
   const location = useLocation();
-
   const varifyToken = () => {
     const { token, id } = queryString.parse(location.search);
   };
-
   const handleOnChange = ({ target }) => {
     const { name, value } = target;
     setPassword({ ...newPassword, [name]: value });
@@ -75,7 +73,6 @@ function ResetPassword() {
                       ></input>
                     </div>
                   </div>
-
                   <br />
                   <div className="text-center">
                     <input
