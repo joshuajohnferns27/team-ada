@@ -59,30 +59,11 @@ function Cards() {
               style={{ width: "18rem" }}
               className="mb-2"
             >
-              <Card.Header>User</Card.Header>
+              <Card.Header>VIOLATIONS</Card.Header>
               <Card.Body className="content">
-                <Card.Title>USERNAME 3 </Card.Title>
+                <Card.Title>TOTAL VIOLATIONS:20</Card.Title>
                 <Card.Text className="info">
-                  This space is to fill with the user info.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          ))}
-        </Col>
-        <Col className="card1">
-          {["Dark"].map((variant) => (
-            <Card
-              bg={variant.toLowerCase()}
-              key={variant}
-              text={variant.toLowerCase() === "light" ? "dark" : "white"}
-              style={{ width: "18rem" }}
-              className="mb-2"
-            >
-              <Card.Header>User</Card.Header>
-              <Card.Body className="content">
-                <Card.Title>USERNAME 4</Card.Title>
-                <Card.Text className="info">
-                  This space is to fill with the user info.
+                  <li>Top violators this month:  </li>
                 </Card.Text>
               </Card.Body>
             </Card>

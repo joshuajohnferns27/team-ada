@@ -8,3 +8,13 @@
 .b1:hover {
   background-color: gray;
 }
+
+body {
+  background: linear-gradient(to top, #03b6a7 50%, #68686863 90%) no-repeat;
+}
+
+@media (max-width: 360px) {
+  body {
+    height: 100%;
+  }
+}
